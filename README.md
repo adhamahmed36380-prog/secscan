@@ -1,8 +1,62 @@
-# 🛡️ SecScan
+🛡️ Adham SecScan
 
-**[🇬🇧 English](#english) | [🇳🇴 Norsk](#norsk)**
+«A security vulnerability scanner for applications, source code, dependencies, configurations, and web applications.»
+
+Adham SecScan is a modified and extended version of the original "SecScan" (https://github.com/barx10/secscan) project.
+
+The project combines multiple security analysis tools into a single scanning workflow and generates readable security reports.
+
+Original Project
+
+This project is based on SecScan by barx10.
+
+- Original repository: https://github.com/barx10/secscan
+- License: MIT
+- This repository preserves the original project's licensing and attribution requirements.
+
+🚀 Current Features
+
+- Secrets Scanning — Detect hardcoded secrets, API keys, and credentials using Gitleaks
+- Dependency Scanning — Find vulnerable dependencies using OSV-Scanner and Trivy
+- SAST — Static analysis with Semgrep
+- Config Scanning — Detect security misconfigurations in Docker, Kubernetes, Terraform, and other configuration files
+- Web Scanning — Scan authorized web applications using Nuclei and OWASP ZAP
+- SBOM Generation — Generate Software Bill of Materials using Syft
+- Multiple Report Formats — JSON, HTML, and terminal output
+- CLI + Web Interface — Run scans from the command line or local web interface
+
+🧪 Adham SecScan Development
+
+This fork is being developed as a learning and cybersecurity project.
+
+Planned improvements include:
+
+- Better scan summaries
+- Improved reporting
+- Additional security checks
+- More developer-friendly CLI output
+- Improved documentation
+- Additional automation features
+
+«⚠️ Only scan systems, applications, repositories, and websites that you own or have explicit permission to test.»
 
 ---
+
+📸 Screenshots / Skjermbilder
+
+<details>
+<summary><strong>Click to view screenshots / Klikk for å se skjermbilder</strong></summary>Dashboard| New Scan
+"Dashboard" (docs/screenshots/dashboard.png)| "New Scan" (docs/screenshots/new-scan.png)
+
+Scan Report| Settings
+"Report" (docs/screenshots/report.png)| "Settings" (docs/screenshots/settings.png)
+
+Findings| Help
+"Findings" (docs/screenshots/findings.png)| "Help" (docs/screenshots/help.png)
+
+</details>---
+
+
 
 ### 📸 Screenshots / Skjermbilder
 
